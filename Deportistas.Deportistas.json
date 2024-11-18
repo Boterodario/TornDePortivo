@@ -1,0 +1,55 @@
+[{
+  "_id": "deportista1",
+  "nombre": "Lionel Messi",
+  "edad": 36,
+  "nacionalidad": "Argentina",
+  "equipo": "Argentina",
+  "posicion": "Delantero",
+  "estadisticas": {
+    "goles": 7,
+    "asistencias": 3,
+    "tarjetas_amarillas": 1,
+    "tarjetas_rojas": 0
+  }
+},
+{
+  "_id": "entrenador1",
+  "nombre": "Lionel Scaloni",
+  "edad": 45,
+  "nacionalidad": "Argentina",
+  "equipo": "Argentina",
+  "experiencia": "5 años"
+},
+{
+  "_id": "arbitro1",
+  "nombre": "Antonio Mateu Lahoz",
+  "edad": 46,
+  "nacionalidad": "España",
+  "partidos_dirigidos": 4
+},
+{
+  "_id": "equipo1",
+  "nombre": "Argentina",
+  "grupo": "C",
+  "entrenador_id": "entrenador1",
+  "jugadores": [
+    "deportista1",
+    "deportista2"
+  ]
+},
+{
+  "_id": "encuentro1",
+  "fecha": "2022-12-18",
+  "lugar": "Lusail Stadium",
+  "equipo_local": "Argentina",
+  "equipo_visitante": "Francia",
+  "arbitro_id": "arbitro1",
+  "resultado": {
+    "goles_local": 3,
+    "goles_visitante": 3,
+    "penales": {
+      "local": 4,
+      "visitante": 2
+    }
+  }
+}]
